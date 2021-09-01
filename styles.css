@@ -1,6 +1,6 @@
 
 .nav-parent{
-    background-color: #F472B6;
+    background-color: #93C5FD;
     overflow: hidden;
     padding: 1rem;
     border-bottom-left-radius: 20px;
@@ -17,6 +17,10 @@
     font-size: 30px;
     font-weight: bold; 
 }
+.active, .link:hover {
+    background-color: #1E3A8A;
+    color: white;
+  }
 .header{
   padding: 2rem;
 }
@@ -40,12 +44,52 @@
   border:10px solid #1E3A8A;
 }
 .section{
-  padding:1rem;
+  padding:0.5rem;
   background-color: #D1D5DB;
+  margin: 2rem;
+  font-weight: bolder;
 }
 .section .section-header{
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
   color:#1E3A8A;
   display:block
+}
+.section .p{
+    display: block;
+    text-align: center;
+    font-size: x-large;
+    font-weight: normal;
+}
+.section .section-container{
+    text-align: center;
+    display: block;
+}
+.section .button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #1E3A8A;
+    padding: 10px;
+    /* text-align: center; */
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    margin: auto;
+}
+.active, .button:hover {
+    background-color: #3B82F6;
+    color:black;
+  }
+  .footer{
+     background-color: #93C5FD; 
+     padding: 2rem 1rem;
+     text-align: center;
+     color: #1E3A8A
+     ;
+}
+.footer .footer-header{
+    font-size: x-large;
+    
 }

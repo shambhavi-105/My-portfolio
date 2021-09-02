@@ -86,14 +86,12 @@
   }
   .footer{
      background-color: #93C5FD; 
-     padding: 2rem 1rem;
      text-align: center;
      color: #1E3A8A;
-     bottom: 0;
-     position: fixed;
-     max-height: 30px;
+    flex-grow: 1;
 }
 .footer .footer-header{
     font-size: x-large;
+    padding:0.5rem
     
 }

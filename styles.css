@@ -67,7 +67,7 @@
     display: block;
 }
 .section .button {
-    display: block;
+    display: inline-block;
     width: 115px;
     max-height: 35px;
     background: #1E3A8A;
@@ -76,7 +76,7 @@
     border-radius: 5px;
     color: white;
     font-weight: bold;
-    line-height: 25px;
+    line-height: 1rem;
     margin: auto;
     overflow: wrap;
 }

@@ -78,7 +78,7 @@
     font-weight: bold;
     line-height: 25px;
     margin: auto;
-    overflow: hidden;
+    overflow: wrap;
 }
 .active, .button:hover {
     background-color: #3B82F6;

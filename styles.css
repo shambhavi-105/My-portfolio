@@ -20,6 +20,7 @@
 .active, .link:hover {
     background-color: #1E3A8A;
     color: white;
+    margin: auto;
   }
 .header{
   padding: 2rem;
@@ -77,6 +78,7 @@
     font-weight: bold;
     line-height: 25px;
     margin: auto;
+    overflow: hidden;
 }
 .active, .button:hover {
     background-color: #3B82F6;
@@ -86,8 +88,10 @@
      background-color: #93C5FD; 
      padding: 2rem 1rem;
      text-align: center;
-     color: #1E3A8A
-     ;
+     color: #1E3A8A;
+     bottom: 0;
+     position: fixed;
+     max-height: 30px;
 }
 .footer .footer-header{
     font-size: x-large;

@@ -89,6 +89,7 @@
      text-align: center;
      color: #1E3A8A;
     flex-grow: 1;
+    bottom: 0;
 }
 .footer .footer-header{
     font-size: x-large;

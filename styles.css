@@ -69,7 +69,7 @@
 .section .button {
     display: block;
     width: 115px;
-    height: 25px;
+    max-height: 35px;
     background: #1E3A8A;
     padding: 10px;
      text-align: center; 

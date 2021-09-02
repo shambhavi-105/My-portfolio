@@ -68,7 +68,7 @@
 }
 .section .button {
     display: inline-block;
-    width: 115px;
+    max-width: 120px;
     max-height: 35px;
     background: #1E3A8A;
     padding: 1rem;

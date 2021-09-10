@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
+body{
+    font-family: 'PT Sans', sans-serif;
+}
 .nav-parent{
     background-color: #93C5FD;
     overflow: hidden;
@@ -17,7 +21,7 @@
     font-size: 30px;
     font-weight: bold; 
 }
-.active, .link:hover {
+.link-active {
     background-color: #1E3A8A;
     color: white;
     margin: auto;
@@ -66,7 +70,7 @@
     text-align: center;
     display: block;
 }
-.section .button {
+.section .primary-button {
     display: inline-block;
     max-width: 120px;
     max-height: 35px;
@@ -79,20 +83,73 @@
     line-height: 1rem;
     margin: auto;
     overflow: wrap;
+    text-decoration: none;
 }
-.active, .button:hover {
+.section .secondary-button {
+    display: inline-block;
+    max-width: 120px;
+    max-height: 35px;
+    border-color:#1E3A8A ;
+    border-style: solid;
+    border-width: 1px;
+    padding: 1rem;
+    text-align: center; 
+    border-radius: 5px;
+    color:#1E3A8A;
+    font-weight: bold;
+    line-height: 1rem;
+    margin: auto;
+    overflow: wrap;
+    text-decoration: none;
+}
+.active, .primary-button:hover {
     background-color: #3B82F6;
     color:black;
+  }
+  .active, .secondary-button:hover {
+    background-color: #1E3A8A;
+    color:white;
   }
   .footer{
      background-color: #93C5FD; 
      text-align: center;
      color: #1E3A8A;
     flex-grow: 1;
-    align-items: flex-end;
 }
 .footer .footer-header{
     font-size: x-large;
     padding:0.5rem
     
 }
+.p{
+    display: block;
+}
+.button-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.fa-instagram{
+    font-size:60px;
+    color:#C13584;
+    text-shadow:4px 4px 4px #000000;padding: 1rem
+}
+.active, .fa-instagram:hover {
+    background-color: #60A5FA;
+  }
+  .fa-linkedin{
+    font-size:60px;
+    color:#0077b5;
+    text-shadow:4px 4px 4px #000000;padding: 1rem
+  }
+  .active, .fa-linkedin:hover {
+    background-color: #60A5FA;
+  }
+  .fa-facebook{
+    font-size:60px;
+    color:#4267B2;
+    text-shadow:4px 4px 4px #000000;padding: 1rem
+  }
+  .active, .fa-facebook:hover {
+    background-color: #60A5FA;
+  }

@@ -21,13 +21,12 @@ body{
     padding: 1rem 2rem; 
     font-size: 30px;
     font-weight: bold;
-    width:25%; 
+    width:50%; 
 }
 @media screen and (max-width: 600px) {
     .nav-container {
       float: none;
       width: 100%;
-      margin: 2rem;
     }
   }
 .link-active {
@@ -56,6 +55,7 @@ body{
  max-width:  150px;
   border-radius: 50%;
   border:10px solid #1E3A8A;
+  margin: 2rem;
 }
 .section{
   padding:0.5rem;

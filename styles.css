@@ -12,6 +12,7 @@ body{
 .nav-container{
     display: inline;
     float: right;
+    padding: 4rem 2rem;
     
 }
 .link{
@@ -19,12 +20,19 @@ body{
     color: #1E3A8A;
     padding: 1rem 2rem; 
     font-size: 30px;
-    font-weight: bold; 
+    font-weight: bold;
+    width:25%; 
 }
+@media screen and (max-width: 600px) {
+    .nav-container {
+      float: none;
+      width: 100%;
+    }
+  }
 .link-active {
     background-color: #1E3A8A;
     color: white;
-    margin: auto;
+   border-radius: 20px;
   }
 .header{
   padding: 2rem;

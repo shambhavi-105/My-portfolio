@@ -16,23 +16,34 @@ body{
     
 }
 .link{
-    text-decoration: none;
     color: #1E3A8A;
-    padding: 1rem 2rem; 
-    font-size: 30px;
-    font-weight: bold;
-    width:50%; 
+    float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: x-large;
 }
-@media screen and (max-width: 600px) {
-    .nav-container {
-      float: none;
-      width: 100%;
-    }
-  }
 .link-active {
     background-color: #1E3A8A;
     color: white;
    border-radius: 20px;
+   padding: 0.8rem;
+  }
+  @media screen and (max-width: 600px) {
+    .avatar {
+      float: left;
+      max-width: 100px;
+      max-height: 100px;
+      margin: auto;
+    }
+     .nav-container{
+         display: block;
+         float: none;
+         padding: 4rem 2rem;
+         font-size: x-small;
+         width: 100%;
+     }
   }
 .header{
   padding: 2rem;
@@ -55,7 +66,6 @@ body{
  max-width:  150px;
   border-radius: 50%;
   border:10px solid #1E3A8A;
-  margin: 2rem;
 }
 .section{
   padding:0.5rem;

@@ -14,12 +14,25 @@
 <body>
     <nav class='nav-parent'>
         <img src='./image/avatar.png' class='avatar' alt="avatar">
-    <div class='nav-container'>
+    <div class='nav-container' id='myTopnav'>
             <a class='link link-active' href="/">Home</a>
             <a class='link ' href="./projects.html">Projects</a>
             <a class='link ' href="./blogs.html">Blogs</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fas fa-bars" ></i>
+              </a>
         </div>
 </nav>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "nav-container") {
+        x.className += " responsive";
+      } else {
+        x.className = "nav-container";
+      }
+    }
+    </script>
 <header class='header'>
     <img class='img-style' src="./image/logo.svg">
     <h2 class="img-header">Hi! I am Shambhavi Shukla</h2>

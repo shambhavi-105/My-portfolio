@@ -4,7 +4,7 @@ body{
     font-family: 'PT Sans', sans-serif;
 }
 .nav-parent{
-    background-color: #93C5FD;
+     background-color: #93C5FD; 
     overflow: hidden;
     padding: 1rem;
     border-bottom-left-radius: 20px;
@@ -12,8 +12,13 @@ body{
 .nav-container{
     display: inline;
     float: right;
+    overflow: hidden;
     padding: 4rem 2rem;
     
+}
+.nav-container .icon{
+    display: none;
+    color:#1E3A8A;
 }
 .link{
     color: #1E3A8A;
@@ -31,19 +36,26 @@ body{
    padding: 0.8rem;
   }
   @media screen and (max-width: 600px) {
-    .avatar {
-      float: left;
-      max-width: 100px;
-      max-height: 100px;
-      margin: auto;
+    .nav-container a {display: none;}
+    .nav-container a.icon {
+      float: right;
+      display: block;
+      color:#1E3A8A;
     }
-     .nav-container{
-         display: block;
-         float: none;
-         padding: 4rem 2rem;
-         font-size: x-small;
-         width: 100%;
-     }
+  }
+  @media screen and (max-width: 600px) {
+    .nav-container.responsive {position: relative;}
+    .nav-container.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+      color:#1E3A8A;
+    }
+    .nav-container.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
   }
 .header{
   padding: 2rem;

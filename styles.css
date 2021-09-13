@@ -21,8 +21,13 @@ html,body{
     
 }
 .nav-container .icon{
-    display: none;
+    display:none;
     color:#1E3A8A;
+    overflow-x: hidden;
+    right: 2rem;
+    top: 4rem;
+   position: absolute;
+    font-size: 25px;
 }
 .link{
     color: #1E3A8A;
@@ -45,14 +50,17 @@ html,body{
       float: right;
       display: block;
       color:#1E3A8A;
+      overflow-x: hidden;
     }
   }
   @media screen and (max-width: 600px) {
-    .nav-container.responsive {position: relative;}
+    .nav-container.responsive {position:relative;}
     .nav-container.responsive a.icon {
       position: absolute;
       right: 0;
       top: 0;
+      padding-right: 2rem;
+      padding-top: 0rem;
       color:#1E3A8A;
     }
     .nav-container.responsive a {
@@ -80,7 +88,7 @@ html,body{
 }
 .avatar{
   vertical-align: middle;
- max-width:  150px;
+ max-width:  100px;
   border-radius: 50%;
   border:10px solid #1E3A8A;
 }

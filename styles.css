@@ -68,6 +68,9 @@ html,body{
       display: block;
       text-align: left;
     }
+    .link{
+        font-size: large;
+    }
   }
 .header{
   padding: 2rem;

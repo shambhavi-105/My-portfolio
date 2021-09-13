@@ -72,7 +72,7 @@ html,body{
         font-size: large;
     }
     .avatar{
-        max-width:  100px;
+        width:  100px;
     }
   }
 .header{

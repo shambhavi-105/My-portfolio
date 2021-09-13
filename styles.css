@@ -71,6 +71,9 @@ html,body{
     .link{
         font-size: large;
     }
+    .avatar{
+        max-width:  100px;
+    }
   }
 .header{
   padding: 2rem;
@@ -91,7 +94,7 @@ html,body{
 }
 .avatar{
   vertical-align: middle;
- max-width:  100px;
+ max-width:  150px;
   border-radius: 50%;
   border:10px solid #1E3A8A;
 }
@@ -170,6 +173,7 @@ html,body{
 }
 .p{
     display: block;
+    font-size: large;
 }
 .button-container{
     display: block;
